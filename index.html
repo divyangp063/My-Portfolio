@@ -13,29 +13,211 @@
       <!--=============== CSS ===============-->
       <link rel="stylesheet" href="assets/css/styles.css">
 
-      <title>Responsive portfolio website Rian - Bedimcode</title>
+      <title>Divyang Prajapati Portfolio</title>
    </head>
    <body>
       <!--==================== HEADER ====================-->
       <header class="header" id="header">
-         
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+               <span class="nav__logo-circle">D</span>
+               <span class="nav__logo-name">Divyang P.</span>
+            </a>
+            <div class="nav__menu" id="nav-menu">
+               <span class="nav__title">Menu</span>
+               <h3 class="nav__name">Divyang</h3>
+               <ul class="nav__list">
+                  <li class="nav__item">
+                     <a href="#home" class="nav__link">Home</a>
+                  </li>
+                  
+                  <li class="nav__item">
+                     <a href="#about" class="nav__link">About Me</a>
+                  </li>
+                  
+                  <li class="nav__item">
+                     <a href="#projects" class="nav__link">Projects</a>
+                  </li>
+                  
+                  <li class="nav__item">
+                     <a href="#contact" class="nav__link">Contact Me</a>
+                  </li>
+               </ul>
+
+               <!-- Close button -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-line"></i>
+               </div>
+            </div>
+
+            <div class="nav__buttons">
+               <!-- Toggle button -->
+                <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-4-line"></i>
+                </div>
+            </div>
+         </nav>
       </header>
 
       <!--==================== MAIN ====================-->
       <main class="main">
+
          <!--==================== HOME ====================-->
          <section class="home section" id="home">
-            
+            <div class="home__container container grid">
+               <h1 class="home__name">
+                  Divyang Prajapati
+               </h1>
+
+               <div class="home__perfil">
+                  <div class="home__image">
+                     <img src="assets/img/home-perfil-me.jpg" alt="my-image" class="home__img">
+                     <div class="home__shadow"></div>
+                     <img src="assets/img/curved-arrow.svg" alt="" class="home__arrow">
+                     <img src="assets/img/random-lines.svg" alt="" class="home__line">
+
+                     <div class="geometric-box"></div>
+                  </div>
+                  <div class="home__social">
+                     <a href="https://www.youtube.com/channel/UCIMhi7TZmn3g0p_U7PNNW3A" target="_blank" class="home__social-link">
+                        <i class="ri-youtube-fill"></i>
+                     </a>
+
+                     <a href="https://www.linkedin.com/in/divyang-prajapati-941a29320" target="_blank" class="home__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                     </a>
+
+                     <a href="https://github.com/divyangp063" target="_blank" class="home__social-link">
+                        <i class="ri-github-fill"></i>
+                     </a>
+                  </div>
+               </div>
+
+               <div class="home__info">
+                  <p class="home__description">
+                     <b>Software Developer</b>, with knowledge in software architecture, development, and design,
+                     I offer the best projects resulting in quality work.
+                  </p>
+
+                  <a href="#about" class="home__scroll">
+                     <div class="home__scroll-box">
+                        <i class="ri-arrow-down-s-line"></i>
+                     </div>
+
+                     <span class="home__scroll-text">Scroll Down</span>
+                  </a>
+               </div>
+            </div>
          </section>
 
          <!--==================== ABOUT ====================-->
          <section class="about section" id="about">
-            
+            <div class="about__container container grid">
+               <h2 class="section__title-1">
+                  <span>About Me.</span>
+               </h2>
+
+               <div class="about__perfil">
+                  <div class="about__image">
+                     <img src="assets/img/about-perfil-me.jpg" alt="about-me" class="about__img">
+
+                     <div class="about__shadow"></div>
+
+                     <div class="geometric-box"></div>
+                     <img src="assets/img/random-lines.svg" alt="" class="about__line">
+                     <div class="about__box"></div>
+                  </div>
+               </div>
+
+               <div class="about__info">
+                  <p class="about__description">
+                     Passionate about creating <b>Software Applications</b> with
+                     <b>innovative solutions</b>, I take pride in helping others
+                     ensuring proper functionality of software applications. 
+                  </p>
+
+                  <ul class="about__list">
+                     <li class="about__item">
+                        <b>My Skills Are:</b> Java, C++, C# Python, JavaScript, HTML, CSS, Ruby, SQL, 
+                        React, AWS Cloud, MySQL, Git & Github, Bootstrap, Pagy, Devise, HTTParty, Ruby on Rails, 
+                        Selenium, Unity & Blender.
+                     </li>
+                  </ul>
+
+                  <div class="about__buttons">
+                     <a href="#contact" class="button">
+                        <i class="ri-send-plane-fill"></i> Contact Me
+                     </a>
+                     
+                     <a href="https://www.linkedin.com/in/divyang-prajapati-941a29320" target= "_blank" class="button__ghost">
+                        <i class="ri-linkedin-box-fill"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
          </section>
 
          <!--==================== SERVICES ====================-->
          <section class="services section">
-            
+            <h2 class="section__title-2">
+               <span>Services.</span>
+            </h2>
+
+            <div class="services__container container grid">
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icron">
+                        <div class="services__box"></div>
+                        <i class="ri-javascript-line"></i>
+                     </div>
+
+                     
+                     <h2 class="services__title">Web design</h2>
+                     <p class="services__description">
+                        Beautiful and elegant designs with interface that provide a seamless user experience. 
+                        I create visually appealing and user-friendly websites tailored to your needs.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icron">
+                        <div class="services__box"></div>
+                        <i class="ri-code-box-line"></i>
+                     </div>
+
+                     
+                     <h2 class="services__title">Development</h2>
+                     <p class="services__description">
+                        Custom web development services to build robust and scalable web applications. 
+                        I specialize in creating dynamic and responsive websites that meet your business requirements.
+                     </p>
+                  </div>
+               </article>
+
+               <article class="services__card">
+                  <div class="services__border"></div>
+
+                  <div class="services__content">
+                     <div class="services__icron">
+                        <div class="services__box"></div>
+                        <i class="ri-code-s-slash-line"></i>
+                     </div>
+
+                     
+                     <h2 class="services__title">Software Applications</h2>
+                     <p class="services__description">
+                        Intuitive software solutions designed to streamline your business processes. 
+                        I develop software applications that are user-friendly, efficient, and tailored to meet your specific needs.
+                     </p>
+                  </div>
+               </article>
+            </div>
          </section>
 
          <!--==================== PROJECTS ====================-->
