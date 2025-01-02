@@ -1,15 +1,12 @@
-# Responsive Portfolio Website Rian
-## [Watch it on youtube](https://youtu.be/-uQIBlaZ4P0)
-### Responsive Portfolio Website Rian
+# Responsive Portfolio Divyang Prajapati
+### Divyang Prajapati - Portfolio
 
-- Responsive Personal Portfolio Website Using HTML CSS & JavaScript
-- Contains animations when scrolling.
-- Smooth scrolling in each section.
-- Includes a dark & light theme.
-- Sending emails in the contact section.
-- Developed first with the Mobile First methodology, then for desktop.
-- Compatible with all mobile devices and with a beautiful and pleasant user interface.
+- A responsive personal portfolio website built with HTML, CSS, and JavaScript.
+- Features scroll-triggered animations.
+- Smooth navigation between sections.
+- Includes both dark and light themes.
+- Email functionality in the contact section.
+- Designed with a Mobile First approach, then adapted for desktop.
+- Fully compatible with all mobile devices, offering a beautiful and user-friendly interface.
 
-💙 Join the channel to see more videos like this. [Bedimcode](https://www.youtube.com/@Bedimcode)
-
-![preview img](/preview.png)
+![preview png](https://github.com/user-attachments/assets/6120d71a-4f6d-466a-bbbd-b53a97b77d09)
