@@ -75,14 +75,6 @@ window.addEventListener('scroll', scrollUp)
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]')
-
-console.log('Sections:', sections);
-
-sections.forEach(section => {
-    console.log('Section ID:', section.getAttribute('id'));
-});
-
-
     
 const scrollActive = () =>{
   	const scrollDown = window.scrollY
@@ -92,15 +84,11 @@ const scrollActive = () =>{
 			  sectionTop = current.offsetTop - 58,
 			  sectionId = current.getAttribute('id'),
 			  sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
-              
-        console.log(`Section ID: ${sectionId}, Scroll Position: ${scrollDown}, Section Top: ${sectionTop}, Section Height: ${sectionHeight}`);
 
 		if(scrollDown > sectionTop && scrollDown <= sectionTop + sectionHeight){
 			sectionsClass.classList.add('active-link')
-            console.log(`Adding active-link to: ${sectionId}`);
 		}else{
 			sectionsClass.classList.remove('active-link')
-            console.log(`Removing active-link from: ${sectionId}`);
 		}                                                    
 	});
 };

@@ -10,6 +10,7 @@
   --first-color: hsl(14, 98%, 50%);
   --black-color: hsl(0, 0%, 0%);
   --black-color-light: hsl(0, 0%, 40%);
+  --blue-color: hsl(242, 48%, 33%);
   --white-color: hsl(0, 0%, 95%);
   --title-color: hsl(0, 0%, 0%);
   --text-color: hsl(0, 0%, 35%);
@@ -144,6 +145,15 @@ body.dark-theme {
 
 .dark-theme .projects__card:hover {
   background-color: var(--body-color);
+}
+
+.dark-theme .project__link {
+  color: var(--white-color);
+  transition: color .4s;
+}
+
+.dark-theme .project__link:hover {
+  color: var(--first-color);
 }
 
 .dark-theme :is(.contact__mail, .contact__input, .contact__label) {
@@ -816,6 +826,15 @@ body.dark-theme {
 
 .projects__card:hover {
   background-color: var(--white-color);
+}
+
+.project__link {
+  color: var(--black-color);
+  transition: color .4s;
+}
+
+.project__link:hover {
+  color: var(--first-color);
 }
 
 /*=============== CONTACT ===============*/
